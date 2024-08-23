@@ -1,0 +1,55 @@
+WARN | Starting Kernel Search with 8 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 20
+WARN | Relaxed optimum: 297357.49108579033							0.0025s
+WARN | Kernel: [0, 3, 4, 7, 10, 11, 14, 20, 21, 28, 30, 32, 33, 36, 46, 48, 51, 59, 60, 63]
+WARN | Solving with bucket number 0							0.0039s
+WARN | Kernel: [0, 3, 4, 7, 10, 11, 14, 20, 21, 28, 30, 32, 33, 36, 46, 48, 51, 59, 60, 63]	0.0039s
+WARN | Bucket: []	0.0039s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 113451							0.0000s
+CRIT | Iterations without improvement limit reached			12.9868s
+ERRO | Families from bucket --> []
+WARN | Solution value: 113451								12.9954s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					12.9977s
+WARN | Solving with bucket number 1							12.9985s
+WARN | Kernel: [0, 3, 4, 7, 10, 11, 14, 20, 21, 28, 30, 32, 33, 36, 46, 48, 51, 59, 60, 63]	12.9985s
+WARN | Bucket: [64, 65, 71, 74, 75, 76, 78, 79]	12.9985s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 113451							0.0000s
+INFO | New best solution found: 147033							0.0741s
+INFO | New best solution found: 149203							0.1445s
+INFO | New best solution found: 151954							0.1919s
+INFO | New best solution found: 152794							0.2885s
+INFO | New best solution found: 152805							0.3348s
+INFO | New best solution found: 154972							0.7342s
+INFO | New best solution found: 155784							1.1636s
+INFO | New best solution found: 158408							1.3377s
+INFO | New best solution found: 158738							3.1363s
+INFO | New best solution found: 159693							7.1463s
+INFO | New best solution found: 159774							13.6275s
+CRIT | Iterations without improvement limit reached			23.9405s
+ERRO | Families from bucket --> [64, 65, 71, 74, 75, 76, 78, 79]
+WARN | Solution value: 159774								36.9439s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [64, 65, 71, 74, 75, 76, 78, 79]					36.9470s
+WARN | Solving with bucket number 2							36.9477s
+WARN | Kernel: [0, 3, 4, 7, 10, 11, 14, 20, 21, 28, 30, 32, 33, 36, 46, 48, 51, 59, 60, 63, 64, 65, 71, 74, 75, 76, 78, 79]	36.9477s
+WARN | Bucket: [85, 88, 93, 100, 103, 105, 110, 112]	36.9477s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 159774							0.0000s
+INFO | New best solution found: 203211							0.0940s
+INFO | New best solution found: 203787							1.5694s
+INFO | New best solution found: 204129							3.1705s
+INFO | New best solution found: 204788							10.0227s
+INFO | New best solution found: 204881							10.0833s
+INFO | New best solution found: 205068							11.8145s
+INFO | New best solution found: 206098							12.6367s
+INFO | New best solution found: 206357							18.7097s
+CRIT | Time limit reached
+ERRO | Families from bucket --> [85, 88, 93, 100, 103, 105, 110, 112]
+WARN | Solution value: 206357								60.0366s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [85, 88, 93, 100, 103, 105, 110, 112]					60.0401s
+ERRO | Kernel Time limit reached

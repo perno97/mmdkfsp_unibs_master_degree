@@ -1,0 +1,75 @@
+
+Gurobi 11.0.2 (win64) logging started Sun Aug 18 12:24:21 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-18T10_03_15.889499\logs\instance03_bucket9.log"
+Set parameter TimeLimit to value 350
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 3292 rows, 17218 columns and 184711 nonzeros
+Model fingerprint: 0xd8f0fcf2
+Variable types: 0 continuous, 17218 integer (17084 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+03]
+  Objective range  [6e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+05]
+Presolve time: 0.26s
+Presolved: 3292 rows, 17218 columns, 184711 nonzeros
+Variable types: 0 continuous, 17218 integer (17084 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.08s
+
+Solved with dual simplex
+
+Root relaxation: objective 7.626020e+05, 1798 iterations, 0.43 seconds (0.45 work units)
+Total elapsed time = 5.09s (DegenMoves)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 762602.000    0  437          - 762602.000      -     -    7s
+     0     0 762602.000    0 1010          - 762602.000      -     -   10s
+     0     0 762602.000    0  802          - 762602.000      -     -   12s
+     0     0 762602.000    0  475          - 762602.000      -     -   33s
+     0     0 762602.000    0  822          - 762602.000      -     -   35s
+     0     0 762602.000    0  436          - 762602.000      -     -   55s
+     0     0 762602.000    0  379          - 762602.000      -     -   58s
+     0     2 762602.000    0  338          - 762602.000      -     -   81s
+     3     8 762602.000    2 1026          - 762602.000      -  7237   85s
+    11    16 762602.000    3 1189          - 762602.000      -  5505   97s
+    30    44 762602.000    7  852          - 762602.000      -  3585  116s
+    43   156 762602.000   11  465          - 762602.000      -  8411  120s
+   155   436 762602.000   35  536          - 762602.000      -  3095  129s
+   435   809 762602.000   78  577          - 762602.000      -  1792  138s
+   808  1065 762602.000  143  565          - 762602.000      -  1333  146s
+  1064  1336 762602.000  186  531          - 762602.000      -  1250  154s
+  1339  1567 762602.000  227  525          - 762602.000      -  1205  162s
+  1577  1763 762602.000  262  411          - 762602.000      -  1211  170s
+  1792  1962 762602.000  295  401          - 762602.000      -  1241  178s
+  1994  2135 762602.000  330  411          - 762602.000      -  1287  187s
+  2172  2295 762602.000  357  363          - 762602.000      -  1342  196s
+  2350  2455 762602.000  379  376          - 762602.000      -  1400  206s
+  2521  2569 762602.000  411  370          - 762602.000      -  1470  216s
+  2646  2704 762602.000  433  341          - 762602.000      -  1560  227s
+  2786  2873 762097.186  463  412          - 762602.000      -  1629  239s
+  2957  3029 761231.981  529  450          - 762602.000      -  1676  250s
+  3113  3239 760731.986  573  450          - 762602.000      -  1725  262s
+  3334  3630 761862.000  409  439          - 762602.000      -  1727  275s
+  3729  3790 761862.000  457  368          - 762602.000      -  1657  289s
+  3929  3836 761578.773  492  403          - 762602.000      -  1651  323s
+  3981  3925 761457.193  500  488          - 762602.000      -  1676  339s
+  4072  3926 762602.000  398  379          - 762602.000      -  1729  344s
+
+Explored 4073 nodes (7237314 simplex iterations) in 350.02 seconds (493.60 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 7.626020000000e+05, gap -

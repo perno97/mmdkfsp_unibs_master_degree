@@ -1,0 +1,56 @@
+
+Gurobi 11.0.2 (win64) logging started Wed Aug 14 11:33:49 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-14T08_52_45.517425\logs\instance05_bucket1.log"
+Set parameter TimeLimit to value 500
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 1062 rows, 3504 columns and 97182 nonzeros
+Model fingerprint: 0x39ca1745
+Variable types: 0 continuous, 3504 integer (3462 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [6e+02, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+04]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.16s
+Presolved: 1062 rows, 3504 columns, 97182 nonzeros
+Variable types: 0 continuous, 3504 integer (3462 binary)
+
+Root relaxation: objective 2.384440e+05, 703 iterations, 0.02 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 238444.000    0    7   -0.00000 238444.000      -     -    0s
+H    0     0                    235562.00000 238444.000  1.22%     -    0s
+H    0     0                    236316.00000 238444.000  0.90%     -    0s
+     0     0 238444.000    0   33 236316.000 238444.000  0.90%     -    0s
+H    0     0                    236862.00000 238444.000  0.67%     -    0s
+H    0     0                    237653.00000 238444.000  0.33%     -    0s
+     0     0 238444.000    0    7 237653.000 238444.000  0.33%     -    0s
+H    0     0                    237698.00000 238444.000  0.31%     -    0s
+     0     0 238444.000    0    9 237698.000 238444.000  0.31%     -    0s
+     0     0 238444.000    0    4 237698.000 238444.000  0.31%     -    0s
+H    0     0                    238444.00000 238444.000  0.00%     -    0s
+     0     0 238444.000    0    4 238444.000 238444.000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 23
+  Clique: 71
+  MIR: 19
+  RLT: 3
+
+Explored 1 nodes (5071 simplex iterations) in 0.98 seconds (0.77 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 7: 238444 237698 237653 ... -0
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.384440000000e+05, best bound 2.384440000000e+05, gap 0.0000%

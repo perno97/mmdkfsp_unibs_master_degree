@@ -1,0 +1,61 @@
+
+Gurobi 11.0.2 (win64) logging started Wed Aug  7 19:48:41 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-07T17_25_17.381079\logs\instance03_bucket3.log"
+Set parameter TimeLimit to value 100
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 3833 rows, 20204 columns and 216784 nonzeros
+Model fingerprint: 0x5d28ecf8
+Variable types: 0 continuous, 20204 integer (20047 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+03]
+  Objective range  [5e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+05]
+Presolve time: 0.33s
+Presolved: 3833 rows, 20204 columns, 216784 nonzeros
+Variable types: 0 continuous, 20204 integer (20047 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.17s (can be avoided by choosing Method=3)
+
+Solved with dual simplex
+
+Root relaxation: objective 7.712429e+05, 3851 iterations, 1.17 seconds (1.27 work units)
+Total elapsed time = 5.81s (DegenMoves)
+Total elapsed time = 10.71s (DegenMoves)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 771242.895    0 1112          - 771242.895      -     -   12s
+     0     0 771239.666    0 2000          - 771239.666      -     -   17s
+     0     0 771207.900    0 1431          - 771207.900      -     -   22s
+     0     0 771201.660    0 1275          - 771201.660      -     -   24s
+     0     0 771201.294    0 1246          - 771201.294      -     -   25s
+     0     0 771200.330    0 1256          - 771200.330      -     -   25s
+     0     0 771159.872    0  986          - 771159.872      -     -   55s
+     0     0 771156.596    0 1126          - 771156.596      -     -   58s
+     0     0 771151.813    0 1822          - 771151.813      -     -   68s
+     0     0 771151.813    0  865          - 771151.813      -     -   92s
+
+Cutting planes:
+  Gomory: 13
+  Cover: 821
+  Clique: 263
+  MIR: 402
+  StrongCG: 3
+
+Explored 1 nodes (220893 simplex iterations) in 100.01 seconds (114.10 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 7.711518129071e+05, gap -

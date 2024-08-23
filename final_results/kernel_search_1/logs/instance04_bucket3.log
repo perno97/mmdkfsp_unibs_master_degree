@@ -1,0 +1,71 @@
+
+Gurobi 11.0.2 (win64) logging started Wed Aug  7 19:55:19 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-07T17_25_17.381079\logs\instance04_bucket3.log"
+Set parameter TimeLimit to value 100
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 442 rows, 944 columns and 25731 nonzeros
+Model fingerprint: 0x719cf26e
+Variable types: 0 continuous, 944 integer (922 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+03]
+  Objective range  [6e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 8e+04]
+Presolve time: 0.04s
+Presolved: 442 rows, 944 columns, 25731 nonzeros
+Variable types: 0 continuous, 944 integer (922 binary)
+
+Root relaxation: objective 9.672869e+04, 1723 iterations, 0.14 seconds (0.24 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 96728.6909    0  342          - 96728.6909      -     -    0s
+     0     0 95853.5645    0  455          - 95853.5645      -     -    1s
+     0     0 95834.8215    0  412          - 95834.8215      -     -    1s
+     0     0 95459.0638    0  369          - 95459.0638      -     -    2s
+     0     0 95388.9636    0  427          - 95388.9636      -     -    2s
+     0     0 95299.4002    0  496          - 95299.4002      -     -    3s
+     0     0 95299.4002    0  389          - 95299.4002      -     -    4s
+     0     2 95299.4002    0  358          - 95299.4002      -     -    5s
+  1130   950 90409.0000   47  113          - 95299.4002      -   195   10s
+  1252   994 94725.7349   14  541          - 95299.4002      -  16.8   15s
+H 1298   974                    79224.000000 95299.4002  20.3%  40.3   18s
+H 1300   930                    81182.000000 95299.4002  17.4%  45.4   18s
+H 1302   886                    81703.000000 95299.4002  16.6%  46.3   18s
+  1323   904 93941.7939   25  523 81703.0000 95299.4002  16.6%  61.0   20s
+H 1332   866                    82439.000000 95299.4002  15.6%  72.5   21s
+H 1362   849                    82448.000000 95299.4002  15.6%  88.0   22s
+  1417   883 91733.7355   42  360 82448.0000 95299.4002  15.6%   119   25s
+H 1551   912                    82675.000000 95299.4002  15.3%   162   29s
+  1558   928 95188.7439   15  633 82675.0000 95299.4002  15.3%   163   30s
+  1796  1075 92204.0000   29  394 82675.0000 95299.4002  15.3%   183   35s
+  1968  1161 90736.8997   41  398 82675.0000 95299.4002  15.3%   215   40s
+H 2052  1156                    82704.000000 95299.4002  15.2%   232   42s
+  2163  1320 88755.8763   62  237 82704.0000 95299.4002  15.2%   243   45s
+  2555  1447 91619.0000   25  349 82704.0000 95299.4002  15.2%   244   50s
+  2911  1719 94540.5885   21  559 82704.0000 95299.4002  15.2%   255   55s
+  3267  1872 89451.5068   44  331 82704.0000 95299.4002  15.2%   261   60s
+  3815  2321 90418.5280   37  343 82704.0000 95283.6430  15.2%   271   67s
+  4093  2563 94140.3797   24  547 82704.0000 95283.3581  15.2%   274   71s
+  4591  3016 90103.1139   49  472 82704.0000 95212.2775  15.1%   278   76s
+  4941  3254 92295.5935   29  509 82704.0000 95164.3532  15.1%   279   81s
+  5242  3604 88699.1069   52  392 82704.0000 95141.1458  15.0%   279   85s
+H 5636  3731                    83160.000000 95087.4416  14.3%   277   87s
+  5740  3888 91152.0000   32  399 83160.0000 95079.3827  14.3%   276   90s
+  6179  4290 85427.7161   73  231 83160.0000 94994.4395  14.2%   272   97s
+  6427  4497 88908.0000   39  205 83160.0000 94980.1037  14.2%   270  100s
+
+Explored 6690 nodes (2058922 simplex iterations) in 100.05 seconds (210.46 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 8: 83160 82704 82675 ... 79224
+
+Time limit reached
+Best objective 8.316000000000e+04, best bound 9.495100000000e+04, gap 14.1787%

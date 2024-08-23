@@ -1,0 +1,43 @@
+WARN | Starting Kernel Search with 10 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 25
+WARN | Relaxed optimum: 249752.7914994969							1.0208s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 97, 98, 118, 120, 132, 145, 146, 148, 149, 151]
+WARN | Solving with bucket number 0							1.0228s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 97, 98, 118, 120, 132, 145, 146, 148, 149, 151]	1.0228s
+WARN | Bucket: []	1.0228s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 151173							0.0000s
+CRIT | Iterations without improvement limit reached			6.8501s
+ERRO | Families from bucket --> []
+WARN | Solution value: 151173								7.8786s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					7.8814s
+WARN | Solving with bucket number 1							7.8821s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 97, 98, 118, 120, 132, 145, 146, 148, 149, 151]	7.8821s
+WARN | Bucket: [152, 153, 156, 157, 158, 166, 42, 2, 92, 162]	7.8821s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 151173							0.0000s
+INFO | New best solution found: 155069							0.8935s
+INFO | New best solution found: 197019							1.0341s
+INFO | New best solution found: 198553							1.1977s
+INFO | New best solution found: 198982							1.3107s
+CRIT | Iterations without improvement limit reached			10.8042s
+ERRO | Families from bucket --> [2, 42, 92, 152, 153, 156, 157, 158, 162, 166]
+WARN | Solution value: 198982								18.6934s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [152, 153, 156, 157, 158, 166, 42, 2, 92, 162]					18.6971s
+WARN | Solving with bucket number 2							18.6978s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 97, 98, 118, 120, 132, 145, 146, 148, 149, 151, 152, 153, 156, 157, 158, 166, 42, 2, 92, 162]	18.6978s
+WARN | Bucket: [83, 159, 22, 8, 71, 36, 88, 30, 164, 107]	18.6978s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 198982							0.0000s
+INFO | New best solution found: 211014							0.2972s
+INFO | New best solution found: 211449							21.3241s
+INFO | New best solution found: 212489							41.1266s
+CRIT | Time limit reached
+ERRO | Families from bucket --> [22, 36, 71, 107, 164]
+WARN | Solution value: 212489								60.7116s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [22, 71, 36, 164, 107]					60.7159s
+ERRO | Kernel Time limit reached

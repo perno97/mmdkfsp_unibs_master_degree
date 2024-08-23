@@ -1,0 +1,30 @@
+WARN | Starting Kernel Search with 10 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 34
+WARN | Relaxed optimum: 249752.7914994969							0.0015s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 98, 118, 120, 132, 145, 146, 148, 149, 151, 152, 153, 156, 157, 158, 166, 42, 2, 92, 162]
+WARN | Solving with bucket number 0							0.0037s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 98, 118, 120, 132, 145, 146, 148, 149, 151, 152, 153, 156, 157, 158, 166, 42, 2, 92, 162]	0.0037s
+WARN | Bucket: []	0.0037s
+WARN | The model was solved to optimality
+ERRO | Families from bucket --> []
+WARN | Solution value: 205991								0.1900s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					0.1938s
+WARN | Solving with bucket number 1							0.1947s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 98, 118, 120, 132, 145, 146, 148, 149, 151, 152, 153, 156, 157, 158, 166, 42, 2, 92, 162]	0.1947s
+WARN | Bucket: [97, 83, 159, 22, 8, 71, 36, 88, 30, 164]	0.1947s
+WARN | The optimization terminated because the time expended exceeded the value specified by the TimeLimit parameter.
+ERRO | Families from bucket --> [8, 22, 36, 83, 88, 97, 159]
+WARN | Solution value: 232779								500.3766s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [97, 83, 159, 22, 8, 36, 88]					500.3821s
+WARN | Solving with bucket number 2							500.3830s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 98, 118, 120, 132, 145, 146, 148, 149, 151, 152, 153, 156, 157, 158, 166, 42, 2, 92, 162, 97, 83, 159, 22, 8, 36, 88]	500.3830s
+WARN | Bucket: [107, 24, 84, 52, 61, 69, 43, 6, 137, 106]	500.3830s
+WARN | The optimization terminated because the time expended exceeded the value specified by the TimeLimit parameter.
+ERRO | Families from bucket --> []
+WARN | Solution value: 232779								540.1682s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					540.1722s
+ERRO | Kernel Time limit reached

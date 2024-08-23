@@ -1,0 +1,38 @@
+WARN | Starting Kernel Search with 5 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 10
+WARN | Relaxed optimum: 96785.87246144458							0.3542s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56]
+WARN | Solving with bucket number 0							0.3552s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56]	0.3552s
+WARN | Bucket: []	0.3552s
+WARN | The model was solved to optimality
+ERRO | Families from bucket --> []
+WARN | Solution value: 53363								0.4195s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					0.4216s
+WARN | Solving with bucket number 1							0.4225s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56]	0.4225s
+WARN | Bucket: [42, 53, 7, 65, 62]	0.4225s
+WARN | The model was solved to optimality
+ERRO | Families from bucket --> [7, 42, 53, 62, 65]
+WARN | Solution value: 78841								0.8121s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [42, 53, 7, 65, 62]					0.8160s
+WARN | Solving with bucket number 2							0.8168s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56, 42, 53, 7, 65, 62]	0.8168s
+WARN | Bucket: [19, 37, 8, 9, 3]	0.8168s
+WARN | The optimization terminated because the time expended exceeded the value specified by the TimeLimit parameter.
+ERRO | Families from bucket --> [3, 19, 37]
+WARN | Solution value: 83545								350.9221s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [19, 37, 3]					350.9253s
+WARN | Solving with bucket number 3							350.9261s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56, 42, 53, 7, 65, 62, 19, 37, 3]	350.9261s
+WARN | Bucket: [22, 60, 63, 27, 50]	350.9261s
+WARN | The optimization terminated because the time expended exceeded the value specified by the TimeLimit parameter.
+ERRO | Families from bucket --> []
+WARN | Solution value: 83545								600.0862s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					600.0896s
+ERRO | Kernel Time limit reached

@@ -1,0 +1,42 @@
+WARN | Starting Kernel Search with 8 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 20
+WARN | Relaxed optimum: 297118.8975816298							0.0035s
+WARN | Kernel: [5, 8, 11, 12, 15, 16, 19, 22, 25, 26, 29, 36, 39, 43, 44, 46, 47, 48, 52, 58]
+WARN | Solving with bucket number 0							0.0053s
+WARN | Kernel: [5, 8, 11, 12, 15, 16, 19, 22, 25, 26, 29, 36, 39, 43, 44, 46, 47, 48, 52, 58]	0.0053s
+WARN | Bucket: []	0.0053s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 114856							0.0000s
+CRIT | Iterations without improvement limit reached			19.4018s
+ERRO | Families from bucket --> []
+WARN | Solution value: 114856								19.4134s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					19.4160s
+WARN | Solving with bucket number 1							19.4167s
+WARN | Kernel: [5, 8, 11, 12, 15, 16, 19, 22, 25, 26, 29, 36, 39, 43, 44, 46, 47, 48, 52, 58]	19.4167s
+WARN | Bucket: [67, 70, 77, 78, 81, 85, 87, 90]	19.4167s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 114856							0.0000s
+INFO | New best solution found: 143141							0.1867s
+INFO | New best solution found: 143609							0.2810s
+INFO | New best solution found: 145703							0.3814s
+INFO | New best solution found: 147975							1.1532s
+INFO | New best solution found: 149644							1.9715s
+INFO | New best solution found: 150901							12.8719s
+INFO | New best solution found: 151225							14.3064s
+INFO | New best solution found: 151312							23.8989s
+INFO | New best solution found: 151633							33.7215s
+INFO | New best solution found: 151957							38.1045s
+INFO | New best solution found: 152009							38.6687s
+INFO | New best solution found: 152215							38.7602s
+INFO | New best solution found: 152503							39.9002s
+INFO | New best solution found: 153167							40.2800s
+INFO | New best solution found: 154209							40.3748s
+INFO | New best solution found: 154958							40.4851s
+CRIT | Time limit reached
+ERRO | Families from bucket --> [67, 70, 77, 78, 81, 85, 87, 90]
+WARN | Solution value: 154958								60.0088s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [67, 70, 77, 78, 81, 85, 87, 90]					60.0124s
+ERRO | Kernel Time limit reached

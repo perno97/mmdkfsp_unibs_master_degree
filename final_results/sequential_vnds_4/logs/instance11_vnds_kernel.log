@@ -1,0 +1,16 @@
+WARN | Starting Kernel Search with 40 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 100
+WARN | Relaxed optimum: 1499046.6442718199							0.0133s
+WARN | Kernel: [0, 2, 3, 7, 13, 17, 21, 25, 26, 30, 31, 34, 35, 38, 39, 41, 42, 53, 54, 58, 62, 63, 64, 68, 71, 73, 74, 77, 78, 85, 86, 87, 92, 94, 96, 98, 99, 101, 102, 105, 114, 115, 117, 119, 121, 122, 129, 130, 131, 135, 138, 141, 145, 149, 150, 152, 154, 156, 160, 166, 176, 177, 178, 179, 180, 181, 183, 184, 185, 187, 190, 194, 196, 202, 203, 207, 210, 219, 223, 225, 226, 229, 230, 231, 233, 237, 239, 240, 242, 243, 247, 251, 253, 259, 260, 261, 262, 266, 267, 268]
+WARN | Solving with bucket number 0							0.0195s
+WARN | Kernel: [0, 2, 3, 7, 13, 17, 21, 25, 26, 30, 31, 34, 35, 38, 39, 41, 42, 53, 54, 58, 62, 63, 64, 68, 71, 73, 74, 77, 78, 85, 86, 87, 92, 94, 96, 98, 99, 101, 102, 105, 114, 115, 117, 119, 121, 122, 129, 130, 131, 135, 138, 141, 145, 149, 150, 152, 154, 156, 160, 166, 176, 177, 178, 179, 180, 181, 183, 184, 185, 187, 190, 194, 196, 202, 203, 207, 210, 219, 223, 225, 226, 229, 230, 231, 233, 237, 239, 240, 242, 243, 247, 251, 253, 259, 260, 261, 262, 266, 267, 268]	0.0195s
+WARN | Bucket: []	0.0195s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 574122							0.0000s
+CRIT | Time limit reached
+ERRO | Families from bucket --> []
+WARN | Solution value: 574122								60.2791s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					60.2855s
+ERRO | Kernel Time limit reached

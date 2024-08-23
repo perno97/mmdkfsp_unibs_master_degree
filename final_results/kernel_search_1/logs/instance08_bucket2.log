@@ -1,0 +1,58 @@
+
+Gurobi 11.0.2 (win64) logging started Wed Aug  7 20:37:08 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-07T17_25_17.381079\logs\instance08_bucket2.log"
+Set parameter TimeLimit to value 100
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 2789 rows, 11738 columns and 328275 nonzeros
+Model fingerprint: 0xb7b98615
+Variable types: 0 continuous, 11738 integer (11604 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+03]
+  Objective range  [7e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 7e+05]
+Presolve time: 0.63s
+Presolved: 2789 rows, 11738 columns, 328275 nonzeros
+Variable types: 0 continuous, 11738 integer (11604 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 7.483833e+05, 5772 iterations, 3.82 seconds (4.12 work units)
+Total elapsed time = 9.86s (DegenMoves)
+Total elapsed time = 14.69s (DegenMoves)
+Total elapsed time = 19.69s (DegenMoves)
+Total elapsed time = 25.26s (DegenMoves)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 748383.252    0 1303          - 748383.252      -     -   27s
+     0     0 748336.993    0 2297          - 748336.993      -     -   41s
+     0     0 748212.822    0 1760          - 748212.822      -     -   49s
+     0     0 748206.132    0 2442          - 748206.132      -     -  100s
+
+Cutting planes:
+  Gomory: 13
+  Cover: 930
+  Clique: 348
+  MIR: 339
+  StrongCG: 4
+  Zero half: 25
+
+Explored 1 nodes (83684 simplex iterations) in 100.05 seconds (103.29 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 7.482060000000e+05, gap -

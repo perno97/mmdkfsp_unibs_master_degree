@@ -1,0 +1,49 @@
+WARN | Starting Kernel Search with 4 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 10
+WARN | Relaxed optimum: 96785.87246144458							0.0021s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56]
+WARN | Solving with bucket number 0							0.0035s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56]	0.0035s
+WARN | Bucket: []	0.0035s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 49753							0.0000s
+INFO | New best solution found: 50587							6.9944s
+CRIT | Iterations without improvement limit reached			18.0100s
+ERRO | Families from bucket --> []
+WARN | Solution value: 50587								18.0178s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					18.0200s
+WARN | Solving with bucket number 1							18.0206s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56]	18.0206s
+WARN | Bucket: [42, 53, 7, 65]	18.0206s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 50587							0.0000s
+INFO | New best solution found: 63024							0.1175s
+INFO | New best solution found: 65461							0.2248s
+INFO | New best solution found: 65938							8.4980s
+INFO | New best solution found: 66397							9.0860s
+INFO | New best solution found: 66913							14.3550s
+INFO | New best solution found: 67138							14.9004s
+CRIT | Iterations without improvement limit reached			26.0960s
+ERRO | Families from bucket --> [7, 42, 53]
+WARN | Solution value: 67138								44.1208s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [42, 53, 7]					44.1236s
+WARN | Solving with bucket number 2							44.1244s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56, 42, 53, 7]	44.1244s
+WARN | Bucket: [62, 19, 37, 8]	44.1244s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 67138							0.0000s
+INFO | New best solution found: 71404							0.0950s
+INFO | New best solution found: 72265							0.1972s
+INFO | New best solution found: 72986							0.9974s
+INFO | New best solution found: 73374							7.8018s
+INFO | New best solution found: 73445							8.4953s
+INFO | New best solution found: 76325							10.4933s
+CRIT | Time limit reached
+ERRO | Families from bucket --> [8, 37, 62]
+WARN | Solution value: 76325								60.2151s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [62, 37, 8]					60.2180s
+ERRO | Kernel Time limit reached

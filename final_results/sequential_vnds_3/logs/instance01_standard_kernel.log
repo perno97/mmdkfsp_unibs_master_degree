@@ -1,0 +1,30 @@
+WARN | Starting Kernel Search with 4 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 14
+WARN | Relaxed optimum: 100757.75059043564							0.1693s
+WARN | Kernel: [4, 10, 16, 19, 25, 28, 31, 42, 53, 65, 44, 5, 30, 39]
+WARN | Solving with bucket number 0							0.1702s
+WARN | Kernel: [4, 10, 16, 19, 25, 28, 31, 42, 53, 65, 44, 5, 30, 39]	0.1702s
+WARN | Bucket: []	0.1702s
+WARN | The model was solved to optimality
+ERRO | Families from bucket --> []
+WARN | Solution value: 86721								0.4616s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					0.4639s
+WARN | Solving with bucket number 1							0.4649s
+WARN | Kernel: [4, 10, 16, 19, 25, 28, 31, 42, 53, 65, 44, 5, 30, 39]	0.4649s
+WARN | Bucket: [46, 57, 27, 0]	0.4649s
+WARN | The optimization terminated because the time expended exceeded the value specified by the TimeLimit parameter.
+ERRO | Families from bucket --> [27, 46, 57]
+WARN | Solution value: 92320								500.6806s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [46, 57, 27]					500.6839s
+WARN | Solving with bucket number 2							500.6845s
+WARN | Kernel: [4, 10, 16, 19, 25, 28, 31, 42, 53, 65, 44, 5, 30, 39, 46, 57, 27]	500.6845s
+WARN | Bucket: [26, 2, 14, 60]	500.6845s
+WARN | The optimization terminated because the time expended exceeded the value specified by the TimeLimit parameter.
+ERRO | Families from bucket --> []
+WARN | Solution value: 92320								540.0508s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					540.0547s
+ERRO | Kernel Time limit reached

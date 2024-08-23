@@ -1,0 +1,28 @@
+
+Gurobi 11.0.2 (win64) logging started Mon Aug 19 17:40:42 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-19T13_57_45.433552\logs\instance11_bucket1.log"
+Set parameter TimeLimit to value 400
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 2136 rows, 8550 columns and 238235 nonzeros
+Model fingerprint: 0x4e169ea9
+Variable types: 0 continuous, 8550 integer (8450 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+03]
+  Objective range  [6e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+05]
+Found heuristic solution: objective 579173.00000
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 1: 579173 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 5.791730000000e+05, best bound 5.791730000000e+05, gap 0.0000%

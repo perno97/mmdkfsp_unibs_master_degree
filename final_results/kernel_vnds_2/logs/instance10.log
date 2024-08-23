@@ -1,0 +1,90 @@
+WARN | Starting Kernel Search with 33 families per bucket
+WARN | Relaxed optimum: 510768.4438363691							2.1486s
+WARN | Building Kernel Search initial solution
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232, 244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315, 332]
+WARN | Solving with bucket number 0							2.1581s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232, 244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315, 332]	2.1581s
+WARN | Bucket: []	2.1581s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 414711							0.0000s
+CRIT | Iterations without improvement limit reached			71.5945s
+WARN | Solution value: 414711								73.7656s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					73.7708s
+WARN | Solving with bucket number 1							73.7720s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232, 244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315, 332]	73.7720s
+WARN | Bucket: [286, 287, 257, 82, 8, 14, 104, 6, 139, 99, 261, 5, 145, 177, 125, 126, 176, 172, 95, 87, 84, 198, 175, 291, 142, 240, 279, 60, 147, 220, 243, 163, 218]	73.7720s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 414711							0.0000s
+INFO | New best solution found: 430280							0.5331s
+INFO | New best solution found: 431652							1.0678s
+INFO | New best solution found: 443117							1.3782s
+INFO | New best solution found: 450846							1.8220s
+INFO | New best solution found: 451181							2.7353s
+INFO | New best solution found: 451698							47.5052s
+INFO | New best solution found: 451763							48.7718s
+INFO | New best solution found: 453481							56.5691s
+INFO | New best solution found: 453823							60.2186s
+INFO | New best solution found: 454411							66.0486s
+INFO | New best solution found: 455065							66.5225s
+INFO | New best solution found: 455409							75.4244s
+INFO | New best solution found: 455511							83.8489s
+CRIT | Time limit reached
+WARN | Solution value: 455511								174.8309s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [286, 287, 257, 82, 8, 104, 6, 139, 99, 5, 145, 177, 125, 176, 198, 279, 60, 147, 163, 218]					174.8376s
+WARN | Solving with bucket number 2							174.8387s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232, 244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315, 332, 286, 287, 257, 82, 8, 104, 6, 139, 99, 5, 145, 177, 125, 176, 198, 279, 60, 147, 163, 218]	174.8387s
+WARN | Bucket: [136, 80, 310, 81, 66, 331, 18, 316, 174, 127, 43, 48, 31, 313, 199, 205, 22, 62, 201, 97, 327, 138, 13, 33, 130, 154, 119, 264, 180, 296, 30, 275, 222]	174.8387s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 455511							0.0000s
+INFO | New best solution found: 455684							31.8637s
+INFO | New best solution found: 456113							69.8743s
+INFO | New best solution found: 456927							73.6469s
+CRIT | Time limit reached
+WARN | Solution value: 456927								275.3481s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [201, 130]					275.3549s
+WARN | Solving with bucket number 3							275.3561s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232, 244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315, 332, 286, 287, 257, 82, 8, 104, 6, 139, 99, 5, 145, 177, 125, 176, 198, 279, 60, 147, 163, 218, 201, 130]	275.3561s
+WARN | Bucket: [197, 34, 272, 285, 1, 72, 40, 303, 239, 23, 121, 328, 183, 202, 326, 165, 67, 231, 268, 107, 223, 269, 226, 128, 211, 85, 25, 308, 113, 86, 224, 191, 179]	275.3561s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 456927							0.0000s
+INFO | New best solution found: 457021							48.1589s
+INFO | New best solution found: 457515							86.6595s
+INFO | New best solution found: 457829							87.2273s
+CRIT | Time limit reached
+WARN | Solution value: 457829								375.8078s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [67, 85]					375.8142s
+WARN | Solving with bucket number 4							375.8154s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232, 244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315, 332, 286, 287, 257, 82, 8, 104, 6, 139, 99, 5, 145, 177, 125, 176, 198, 279, 60, 147, 163, 218, 201, 130, 67, 85]	375.8154s
+WARN | Bucket: [26, 15, 330, 68, 237, 260, 212, 277, 263, 91, 304, 32, 42, 52, 185, 248, 123, 96, 262, 28, 227, 144, 251, 69, 299, 325, 280, 242, 266, 192, 302, 63, 206]	375.8154s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 457829							0.0000s
+INFO | New best solution found: 459236							40.5885s
+INFO | New best solution found: 460324							91.3577s
+CRIT | Time limit reached
+WARN | Solution value: 460324								476.2823s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [266]					476.2884s
+WARN | Solving with bucket number 5							476.2894s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232, 244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315, 332, 286, 287, 257, 82, 8, 104, 6, 139, 99, 5, 145, 177, 125, 176, 198, 279, 60, 147, 163, 218, 201, 130, 67, 85, 266]	476.2894s
+WARN | Bucket: [134, 213, 35, 27, 281, 171, 216, 311, 265, 157, 252, 16, 93, 259, 207, 156, 241, 111, 319, 238, 131, 21, 307, 78, 297, 135, 323, 306, 47, 117, 274, 88, 64]	476.2894s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 460324							0.0000s
+INFO | New best solution found: 460615							79.1852s
+CRIT | Time limit reached
+WARN | Solution value: 460615								577.9453s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					577.9521s
+WARN | Solving with bucket number 6							577.9534s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232, 244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315, 332, 286, 287, 257, 82, 8, 104, 6, 139, 99, 5, 145, 177, 125, 176, 198, 279, 60, 147, 163, 218, 201, 130, 67, 85, 266]	577.9534s
+WARN | Bucket: [247, 236, 132, 300, 108, 49, 61, 110, 181, 292, 106, 77, 89, 58, 203, 228, 284, 90, 324, 152, 314, 17, 11, 59, 253, 76, 24, 79, 233, 19, 3, 149, 234]	577.9534s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 460615							0.0000s
+CRIT | Time limit reached
+WARN | Solution value: 460615								600.1573s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					600.1641s
+ERRO | Kernel Time limit reached

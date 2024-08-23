@@ -1,0 +1,46 @@
+
+Gurobi 11.0.2 (win64) logging started Wed Aug 14 20:06:22 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-14T16_44_40.946359\logs\instance09_bucket3.log"
+Set parameter TimeLimit to value 500
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 3609 rows, 17250 columns and 484042 nonzeros
+Model fingerprint: 0x582a475a
+Variable types: 0 continuous, 17250 integer (17115 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [6e+02, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+05]
+Found heuristic solution: objective 593623.00000
+Presolve time: 0.93s
+Presolved: 3609 rows, 17250 columns, 484042 nonzeros
+Variable types: 0 continuous, 17250 integer (17115 binary)
+Found heuristic solution: objective 688891.00000
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 7.715340e+05, 1003 iterations, 0.24 seconds (0.24 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                    771534.00000 771534.000  0.00%     -    1s
+     0     0 771534.000    0  751 771534.000 771534.000  0.00%     -    1s
+
+Explored 1 nodes (1003 simplex iterations) in 1.26 seconds (1.16 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 771534 688891 593623 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 7.715340000000e+05, best bound 7.715340000000e+05, gap 0.0000%

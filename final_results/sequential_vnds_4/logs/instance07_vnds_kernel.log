@@ -1,0 +1,37 @@
+WARN | Starting Kernel Search with 10 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 25
+WARN | Relaxed optimum: 249752.7914994969							0.0037s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 97, 98, 118, 120, 132, 145, 146, 148, 149, 151]
+WARN | Solving with bucket number 0							0.0058s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 97, 98, 118, 120, 132, 145, 146, 148, 149, 151]	0.0058s
+WARN | Bucket: []	0.0058s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 151173							0.0000s
+CRIT | Iterations without improvement limit reached			21.4657s
+ERRO | Families from bucket --> []
+WARN | Solution value: 151173								21.4782s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					21.4810s
+WARN | Solving with bucket number 1							21.4817s
+WARN | Kernel: [10, 13, 17, 27, 28, 34, 38, 39, 51, 55, 56, 62, 74, 75, 76, 97, 98, 118, 120, 132, 145, 146, 148, 149, 151]	21.4817s
+WARN | Bucket: [152, 153, 156, 157, 158, 166, 42, 2, 92, 162]	21.4817s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 151173							0.0000s
+INFO | New best solution found: 157501							0.1436s
+INFO | New best solution found: 167554							0.7478s
+INFO | New best solution found: 173928							0.9365s
+INFO | New best solution found: 184886							1.1016s
+INFO | New best solution found: 188212							1.4296s
+INFO | New best solution found: 195344							1.6021s
+INFO | New best solution found: 195581							1.7155s
+INFO | New best solution found: 196712							6.6201s
+INFO | New best solution found: 196870							7.1285s
+INFO | New best solution found: 196964							9.7038s
+INFO | New best solution found: 197631							11.3661s
+CRIT | Time limit reached
+ERRO | Families from bucket --> [2, 42, 92, 152, 153, 156, 157, 158, 162, 166]
+WARN | Solution value: 197631								60.0991s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [152, 153, 156, 157, 158, 166, 42, 2, 92, 162]					60.1027s
+ERRO | Kernel Time limit reached

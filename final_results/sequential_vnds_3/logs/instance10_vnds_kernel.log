@@ -1,0 +1,45 @@
+WARN | Starting Kernel Search with 20 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 50
+WARN | Relaxed optimum: 510768.4438363691							2.2970s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232]
+WARN | Solving with bucket number 0							2.3001s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232]	2.3001s
+WARN | Bucket: []	2.3001s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 284003							0.0000s
+CRIT | Iterations without improvement limit reached			11.4708s
+ERRO | Families from bucket --> []
+WARN | Solution value: 284003								13.7815s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					13.7857s
+WARN | Solving with bucket number 1							13.7869s
+WARN | Kernel: [0, 2, 4, 9, 20, 29, 37, 39, 45, 50, 53, 54, 56, 57, 73, 74, 83, 92, 100, 101, 102, 112, 116, 118, 133, 137, 140, 148, 151, 155, 159, 160, 161, 164, 168, 173, 178, 184, 186, 190, 193, 194, 195, 200, 209, 210, 221, 225, 229, 232]	13.7869s
+WARN | Bucket: [244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315]	13.7869s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 284003							0.0000s
+INFO | New best solution found: 300194							0.2959s
+INFO | New best solution found: 346522							0.6887s
+INFO | New best solution found: 354530							0.9707s
+INFO | New best solution found: 367248							1.3014s
+INFO | New best solution found: 386182							1.7049s
+INFO | New best solution found: 386816							2.1022s
+INFO | New best solution found: 387410							2.3909s
+INFO | New best solution found: 389920							3.6091s
+INFO | New best solution found: 390750							7.5921s
+INFO | New best solution found: 391563							11.4259s
+INFO | New best solution found: 392990							12.6146s
+INFO | New best solution found: 393113							13.4719s
+INFO | New best solution found: 393799							27.3168s
+INFO | New best solution found: 394264							28.1697s
+INFO | New best solution found: 394282							28.4278s
+INFO | New best solution found: 395510							29.3292s
+INFO | New best solution found: 395972							34.6618s
+INFO | New best solution found: 396356							42.6771s
+INFO | New best solution found: 397308							42.8939s
+CRIT | Time limit reached
+ERRO | Families from bucket --> [244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315]
+WARN | Solution value: 397308								60.0946s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [244, 245, 246, 249, 250, 254, 255, 258, 270, 273, 276, 283, 288, 289, 290, 293, 295, 298, 309, 315]					60.1011s
+ERRO | Kernel Time limit reached

@@ -1,0 +1,59 @@
+
+Gurobi 11.0.2 (win64) logging started Mon Aug 19 09:58:55 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-19T06_36_50.601237\logs\instance09_bucket7.log"
+Set parameter TimeLimit to value 350
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 6583 rows, 33762 columns and 948999 nonzeros
+Model fingerprint: 0x387460bb
+Variable types: 0 continuous, 33762 integer (33501 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [6e+02, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+06]
+Found heuristic solution: objective 1342957.0000
+Presolve time: 2.14s
+Presolved: 6583 rows, 33762 columns, 948999 nonzeros
+Variable types: 0 continuous, 33762 integer (33501 binary)
+Found heuristic solution: objective 1400739.0000
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.08s
+
+Barrier statistics:
+ AA' NZ     : 1.015e+06
+ Factor NZ  : 1.146e+06 (roughly 23 MB of memory)
+ Factor Ops : 5.270e+08 (less than 1 second per iteration)
+ Threads    : 2
+
+Barrier performed 0 iterations in 2.92 seconds (2.42 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+Concurrent spin time: 0.15s (can be avoided by choosing Method=3)
+
+Solved with dual simplex
+
+Root relaxation: objective 1.511080e+06, 2062 iterations, 0.71 seconds (0.51 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+H    0     0                    1511080.0000 1511080.00  0.00%     -    3s
+     0     0 1511080.00    0    4 1511080.00 1511080.00  0.00%     -    3s
+
+Explored 1 nodes (3975 simplex iterations) in 3.35 seconds (2.81 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 1.51108e+06 1.40074e+06 1.34296e+06 
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 1.511080000000e+06, best bound 1.511080000000e+06, gap 0.0000%

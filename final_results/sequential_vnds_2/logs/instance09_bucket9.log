@@ -1,0 +1,84 @@
+
+Gurobi 11.0.2 (win64) logging started Mon Aug 19 17:27:30 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-19T13_57_45.433552\logs\instance09_bucket9.log"
+Set parameter TimeLimit to value 6.5680669700000180e+01
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 8552 rows, 44788 columns and 1260058 nonzeros
+Model fingerprint: 0x46b60cd8
+Variable types: 0 continuous, 44788 integer (44444 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [6e+02, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+06]
+Presolve removed 0 rows and 0 columns (presolve time = 5s) ...
+Presolve time: 5.14s
+Presolved: 8552 rows, 44788 columns, 1260058 nonzeros
+Variable types: 0 continuous, 44788 integer (44444 binary)
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.39s
+
+Barrier statistics:
+ AA' NZ     : 1.344e+06
+ Factor NZ  : 1.477e+06 (roughly 30 MB of memory)
+ Factor Ops : 6.786e+08 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.83653338e+08  2.03693638e+08  9.21e+06 0.00e+00  1.03e+06    10s
+   1   4.50789332e+07  2.09690466e+08  2.07e+06 4.55e-13  2.49e+05    10s
+   2   2.21688567e+06  1.99191418e+08  2.11e+04 5.97e-13  4.92e+03    10s
+   3   1.82344188e+06  6.95520480e+07  1.46e+03 8.19e-12  9.48e+02    11s
+   4   1.79995710e+06  9.32960298e+06  9.64e-14 9.45e-13  9.41e+01    11s
+   5   1.91942604e+06  3.12868603e+06  4.26e-14 9.95e-14  1.51e+01    12s
+   6   1.93065713e+06  2.08909262e+06  4.29e-14 3.20e-14  1.98e+00    12s
+   7   1.93405159e+06  1.96694961e+06  8.82e-14 3.74e-14  4.11e-01    13s
+   8   1.93506764e+06  1.93792035e+06  3.24e-13 3.93e-14  3.56e-02    13s
+   9   1.93518900e+06  1.93536752e+06  2.41e-12 3.62e-14  2.23e-03    14s
+  10   1.93519932e+06  1.93524132e+06  1.52e-11 4.21e-14  5.25e-04    14s
+  11   1.93520171e+06  1.93520459e+06  4.33e-11 3.75e-14  3.60e-05    15s
+  12   1.93520349e+06  1.93520391e+06  1.16e-13 3.91e-14  5.13e-06    16s
+  13   1.93520365e+06  1.93520370e+06  2.41e-08 3.82e-14  6.34e-07    16s
+  14   1.93520368e+06  1.93520369e+06  1.06e-07 4.44e-14  1.36e-07    17s
+  15   1.93520369e+06  1.93520369e+06  4.22e-08 4.26e-14  4.32e-09    17s
+
+Barrier solved model in 15 iterations and 17.26 seconds (6.12 work units)
+Optimal objective 1.93520369e+06
+
+  Building initial crossover basis                                25s
+  Building initial crossover basis                                30s
+
+Root crossover log...
+
+     709 DPushes remaining with DInf 0.0000000e+00                33s
+       0 DPushes remaining with DInf 0.0000000e+00                35s
+
+   35956 PPushes remaining with PInf 0.0000000e+00                35s
+   33256 PPushes remaining with PInf 0.0000000e+00                40s
+   29859 PPushes remaining with PInf 0.0000000e+00                45s
+   26795 PPushes remaining with PInf 0.0000000e+00                50s
+   23832 PPushes remaining with PInf 0.0000000e+00                55s
+   19951 PPushes remaining with PInf 0.0000000e+00                60s
+   14839 PPushes remaining with PInf 0.0000000e+00                65s
+
+
+Root relaxation: time limit, 0 iterations, 58.91 seconds (18.75 work units)
+
+Explored 1 nodes (0 simplex iterations) in 65.75 seconds (21.89 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 2.002627000000e+06, gap -

@@ -1,0 +1,50 @@
+
+Gurobi 11.0.2 (win64) logging started Wed Aug 14 12:32:16 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-14T08_52_45.517425\logs\instance10_bucket3.log"
+Set parameter TimeLimit to value 3.7196872000000440e+01
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 1542 rows, 4558 columns and 124698 nonzeros
+Model fingerprint: 0xadb67bcc
+Variable types: 0 continuous, 4558 integer (4454 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+03]
+  Objective range  [6e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Presolve time: 0.21s
+Presolved: 1542 rows, 4558 columns, 124698 nonzeros
+Variable types: 0 continuous, 4558 integer (4454 binary)
+
+Root relaxation: objective 5.101611e+05, 4180 iterations, 0.64 seconds (1.13 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 510161.080    0  690          - 510161.080      -     -    2s
+     0     0 510027.003    0 1369          - 510027.003      -     -    6s
+     0     0 509945.684    0  976          - 509945.684      -     -    9s
+     0     0 509746.519    0  724          - 509746.519      -     -   28s
+     0     0 509737.304    0  921          - 509737.304      -     -   29s
+     0     0 509733.761    0 1273          - 509733.761      -     -   37s
+
+Cutting planes:
+  Gomory: 12
+  Cover: 400
+  Clique: 346
+  MIR: 253
+  StrongCG: 2
+  Zero half: 8
+
+Explored 1 nodes (68327 simplex iterations) in 37.21 seconds (37.77 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 5.097337605973e+05, gap -

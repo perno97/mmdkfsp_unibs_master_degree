@@ -1,0 +1,9 @@
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 146							0.0131s
+INFO | New best solution found: 239							0.1729s
+INFO | New best solution found: 254							1.2125s
+INFO | New best solution found: 325							1.5053s
+INFO | New best solution found: 335							19.7635s
+INFO | New best solution found: 349							62.4600s
+INFO | New best solution found: 361							173.3450s
+CRIT | Time limit reached

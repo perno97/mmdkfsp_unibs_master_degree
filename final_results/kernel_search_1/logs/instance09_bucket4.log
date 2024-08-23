@@ -1,0 +1,96 @@
+
+Gurobi 11.0.2 (win64) logging started Wed Aug  7 20:50:54 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-07T17_25_17.381079\logs\instance09_bucket4.log"
+Set parameter TimeLimit to value 100
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 8542 rows, 44638 columns and 1255247 nonzeros
+Model fingerprint: 0x6a69a161
+Variable types: 0 continuous, 44638 integer (44294 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [6e+02, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+06]
+Presolve time: 2.89s
+Presolved: 8542 rows, 44638 columns, 1255247 nonzeros
+Variable types: 0 continuous, 44638 integer (44294 binary)
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.14s
+
+Barrier statistics:
+ AA' NZ     : 1.340e+06
+ Factor NZ  : 1.468e+06 (roughly 30 MB of memory)
+ Factor Ops : 6.719e+08 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.82497902e+08  2.02996377e+08  9.20e+06 0.00e+00  1.03e+06     5s
+   1   4.50398842e+07  2.08964788e+08  2.08e+06 6.25e-13  2.50e+05     5s
+   2   2.22470711e+06  1.98522241e+08  2.17e+04 3.12e-11  4.99e+03     5s
+   3   1.81645136e+06  7.39883310e+07  1.29e+03 5.12e-12  9.98e+02     5s
+   4   1.79432960e+06  1.01578934e+07  1.21e+00 4.55e-13  1.05e+02     6s
+   5   1.83917840e+06  2.69948640e+06  7.90e-01 4.17e-14  1.08e+01     6s
+   6   1.91730839e+06  2.03071676e+06  6.05e-02 3.91e-14  1.42e+00     6s
+   7   1.92405230e+06  1.96730302e+06  4.17e-03 4.62e-14  5.42e-01     6s
+   8   1.92809424e+06  1.93213414e+06  4.06e-05 3.89e-14  5.07e-02     7s
+   9   1.92885472e+06  1.92932839e+06  3.69e-06 4.80e-14  5.94e-03     7s
+  10   1.92897190e+06  1.92901047e+06  1.80e-07 3.38e-14  4.84e-04     7s
+  11   1.92898118e+06  1.92899592e+06  1.72e-08 3.01e-14  1.85e-04     7s
+  12   1.92898206e+06  1.92898230e+06  1.06e-09 3.73e-14  3.02e-06     8s
+  13   1.92898212e+06  1.92898212e+06  2.46e-08 3.55e-14  5.14e-09     8s
+
+Barrier solved model in 13 iterations and 7.95 seconds (5.73 work units)
+Optimal objective 1.92898212e+06
+
+  Building initial crossover basis                                10s
+
+Root crossover log...
+
+    2392 DPushes remaining with DInf 4.4149477e-01                13s
+       0 DPushes remaining with DInf 0.0000000e+00                14s
+
+     414 PPushes remaining with PInf 1.2397097e-03                14s
+       0 PPushes remaining with PInf 0.0000000e+00                14s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.2174216e-10     14s
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    2806    1.9289821e+06   0.000000e+00   0.000000e+00     14s
+Concurrent spin time: 0.00s
+
+Solved with barrier
+    2806    1.9289821e+06   0.000000e+00   0.000000e+00     14s
+
+Root relaxation: objective 1.928982e+06, 2806 iterations, 10.28 seconds (5.98 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1928982.12    0 3154          - 1928982.12      -     -   51s
+     0     0          -    0               - 1928982.12      -     -  100s
+
+Cutting planes:
+  Cover: 1194
+  MIR: 234
+
+Explored 1 nodes (58223 simplex iterations) in 100.01 seconds (106.12 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 1.928982119508e+06, gap -

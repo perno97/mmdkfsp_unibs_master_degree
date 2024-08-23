@@ -1,0 +1,5 @@
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 24							0.0013s
+INFO | New best solution found: 90							0.2080s
+INFO | New best solution found: 114							0.3585s
+CRIT | Reached instance's optimum value

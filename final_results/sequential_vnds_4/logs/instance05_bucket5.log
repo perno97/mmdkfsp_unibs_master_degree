@@ -1,0 +1,49 @@
+
+Gurobi 11.0.2 (win64) logging started Wed Aug 14 19:34:13 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-14T16_44_40.946359\logs\instance05_bucket5.log"
+Set parameter TimeLimit to value 3.4080783600002178e+01
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 1383 rows, 5028 columns and 140037 nonzeros
+Model fingerprint: 0x30963450
+Variable types: 0 continuous, 5028 integer (4969 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [6e+02, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve time: 0.25s
+Presolved: 1383 rows, 5028 columns, 140037 nonzeros
+Variable types: 0 continuous, 5028 integer (4969 binary)
+
+Root relaxation: objective 2.971062e+05, 5790 iterations, 1.55 seconds (2.59 work units)
+Total elapsed time = 5.29s (DegenMoves)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 297106.190    0  849          - 297106.190      -     -    6s
+     0     0 296966.016    0 1287          - 296966.016      -     -   15s
+     0     0 296899.103    0 1094          - 296899.103      -     -   17s
+     0     0 296829.921    0 1390          - 296829.921      -     -   34s
+
+Cutting planes:
+  Gomory: 4
+  Cover: 455
+  Clique: 205
+  MIR: 112
+  StrongCG: 2
+  Zero half: 9
+
+Explored 1 nodes (35963 simplex iterations) in 34.12 seconds (31.87 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 2.968299214751e+05, gap -

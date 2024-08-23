@@ -1,0 +1,69 @@
+
+Gurobi 11.0.2 (win64) logging started Wed Aug 14 20:15:10 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-14T16_44_40.946359\logs\instance09_bucket10.log"
+Set parameter TimeLimit to value 1.0908954100006667e+01
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 8550 rows, 44758 columns and 1259096 nonzeros
+Model fingerprint: 0xf9276972
+Variable types: 0 continuous, 44758 integer (44414 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [6e+02, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+06]
+Presolve time: 2.84s
+Presolved: 8550 rows, 44758 columns, 1259096 nonzeros
+Variable types: 0 continuous, 44758 integer (44414 binary)
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.13s
+
+Barrier statistics:
+ AA' NZ     : 1.343e+06
+ Factor NZ  : 1.477e+06 (roughly 30 MB of memory)
+ Factor Ops : 6.787e+08 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.87734219e+08  2.03550276e+08  9.38e+06 0.00e+00  1.06e+06     5s
+   1   4.59500487e+07  2.09240029e+08  2.10e+06 7.67e-13  2.54e+05     5s
+   2   2.25866546e+06  1.98894961e+08  2.19e+04 4.26e-13  5.02e+03     5s
+   3   1.85142244e+06  7.31690723e+07  1.63e+03 1.31e-12  1.01e+03     6s
+   4   1.82136801e+06  9.40259575e+06  1.54e+00 1.24e-12  9.48e+01     6s
+   5   1.88382632e+06  2.77227436e+06  9.50e-04 1.21e-13  1.11e+01     6s
+   6   1.92518406e+06  2.05355960e+06  1.31e-04 4.35e-14  1.60e+00     6s
+   7   1.93337518e+06  1.94941408e+06  1.52e-04 3.22e-14  2.01e-01     7s
+   8   1.93471415e+06  1.93739882e+06  2.86e-07 4.57e-14  3.36e-02     7s
+   9   1.93481701e+06  1.93505335e+06  2.55e-08 3.75e-14  2.95e-03     7s
+  10   1.93482796e+06  1.93488283e+06  1.31e-08 3.46e-14  6.86e-04     8s
+  11   1.93483203e+06  1.93484423e+06  5.77e-09 4.62e-14  1.52e-04     8s
+  12   1.93483816e+06  1.93483985e+06  7.78e-10 3.40e-14  2.11e-05     8s
+  13   1.93483891e+06  1.93483926e+06  2.52e-13 3.55e-14  4.34e-06     8s
+  14   1.93483905e+06  1.93483906e+06  1.54e-10 4.57e-14  2.14e-07     8s
+  15   1.93483905e+06  1.93483906e+06  6.54e-08 3.02e-14  1.07e-07     9s
+  16   1.93483905e+06  1.93483905e+06  1.80e-08 3.91e-14  2.21e-09     9s
+
+Barrier solved model in 16 iterations and 8.96 seconds (6.20 work units)
+Optimal objective 1.93483905e+06
+
+
+
+Root relaxation: time limit, 0 iterations, 7.35 seconds (3.81 work units)
+
+Explored 1 nodes (0 simplex iterations) in 11.07 seconds (6.98 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 2.000963000000e+06, gap -

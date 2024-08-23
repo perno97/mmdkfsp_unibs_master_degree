@@ -1,0 +1,46 @@
+WARN | Starting Kernel Search with 5 families per bucket
+WARN | Building Kernel Search initial solution
+WARN | Kernel size: 10
+WARN | Relaxed optimum: 96785.87246144458							0.0021s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56]
+WARN | Solving with bucket number 1							0.0037s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56]	0.0037s
+WARN | Bucket: []	0.0037s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 49753							0.0000s
+CRIT | Iterations without improvement limit reached			12.3191s
+ERRO | Families from bucket --> []
+WARN | Solution value: 49753								12.3264s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: []					12.3288s
+WARN | Solving with bucket number 2							12.3294s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56]	12.3294s
+WARN | Bucket: [42, 53, 7, 65, 62]	12.3294s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 49753							0.0000s
+INFO | New best solution found: 54757							0.0714s
+INFO | New best solution found: 67969							0.3603s
+INFO | New best solution found: 68195							4.0546s
+INFO | New best solution found: 68988							7.3288s
+INFO | New best solution found: 69733							8.0797s
+INFO | New best solution found: 70347							9.1268s
+INFO | New best solution found: 70769							14.8792s
+INFO | New best solution found: 70800							16.0673s
+INFO | New best solution found: 71227							23.7080s
+CRIT | Iterations without improvement limit reached			44.6545s
+ERRO | Families from bucket --> [7, 42, 53, 62, 65]
+WARN | Solution value: 71227								56.9881s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [42, 53, 7, 65, 62]					56.9912s
+WARN | Solving with bucket number 3							56.9924s
+WARN | Kernel: [0, 10, 14, 25, 36, 54, 55, 66, 44, 56, 42, 53, 7, 65, 62]	56.9924s
+WARN | Bucket: [19, 37, 8, 9, 3]	56.9924s
+INFO | Starting VNDS algorithm
+INFO | Initial solution value: 71227							0.0000s
+INFO | New best solution found: 72544							1.4251s
+CRIT | Time limit reached
+ERRO | Families from bucket --> [19, 37]
+WARN | Solution value: 72544								60.2177s
+WARN | Solution improved
+WARN | Indexes of the families added to the kernel: [19, 37]					60.2205s
+ERRO | Kernel Time limit reached

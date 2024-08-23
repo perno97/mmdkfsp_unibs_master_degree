@@ -1,0 +1,95 @@
+
+Gurobi 11.0.2 (win64) logging started Sun Aug 18 13:56:30 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-18T10_03_15.889499\logs\instance12_bucket9.log"
+Set parameter TimeLimit to value 350
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 15310 rows, 82380 columns and 2319068 nonzeros
+Model fingerprint: 0x4528f184
+Variable types: 0 continuous, 82380 integer (81750 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [6e+02, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+06]
+Found heuristic solution: objective 3346710.0000
+Presolve removed 0 rows and 0 columns (presolve time = 5s) ...
+Presolve time: 7.57s
+Presolved: 15310 rows, 82380 columns, 2319068 nonzeros
+Variable types: 0 continuous, 82380 integer (81750 binary)
+Found heuristic solution: objective 3386061.0000
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 0.34s
+
+Barrier statistics:
+ AA' NZ     : 2.467e+06
+ Factor NZ  : 2.689e+06 (roughly 50 MB of memory)
+ Factor Ops : 1.301e+09 (less than 1 second per iteration)
+ Threads    : 2
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.53283032e+08  3.74771427e+08  2.27e+07 0.00e+00  1.39e+06    11s
+   1   8.74454343e+07  3.94060257e+08  3.84e+06 5.68e-13  2.53e+05    11s
+   2   4.50246845e+06  3.73771939e+08  5.08e+04 3.18e-12  5.76e+03    11s
+   3   3.70945761e+06  1.86240891e+08  1.29e+04 1.99e-12  1.82e+03    11s
+   4   3.46372798e+06  9.23680362e+07  1.61e+03 1.14e-12  6.56e+02    12s
+
+Barrier performed 4 iterations in 11.75 seconds (7.08 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+Concurrent spin time: 1.06s (can be avoided by choosing Method=3)
+
+Solved with dual simplex
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    5345    3.6996480e+06   0.000000e+00   0.000000e+00     12s
+
+Root relaxation: objective 3.699648e+06, 5345 iterations, 4.18 seconds (2.28 work units)
+Total elapsed time = 28.51s (DegenMoves)
+Total elapsed time = 42.20s (DegenMoves)
+Total elapsed time = 56.87s (DegenMoves)
+Total elapsed time = 67.70s (DegenMoves)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3699648.00    0  359 3386061.00 3699648.00  9.26%     -   81s
+H    0     0                    3581631.0000 3699648.00  3.30%     -   81s
+H    0     0                    3588972.0000 3699648.00  3.08%     -   81s
+H    0     0                    3590938.0000 3699648.00  3.03%     -   82s
+     0     0 3699648.00    0  704 3590938.00 3699648.00  3.03%     -   89s
+H    0     0                    3648415.0000 3699648.00  1.40%     -  145s
+     0     0 3699648.00    0  642 3648415.00 3699648.00  1.40%     -  148s
+     0     0 3699648.00    0  344 3648415.00 3699648.00  1.40%     -  218s
+H    0     0                    3648698.0000 3699648.00  1.40%     -  219s
+     0     0 3699648.00    0  526 3648698.00 3699648.00  1.40%     -  221s
+     0     0 3699648.00    0  830 3648698.00 3699648.00  1.40%     -  252s
+     0     0 3699648.00    0  318 3648698.00 3699648.00  1.40%     -  325s
+
+Cutting planes:
+  Gomory: 60
+  Lift-and-project: 1
+  Cover: 829
+  Clique: 1592
+  MIR: 625
+  StrongCG: 80
+
+Explored 1 nodes (377339 simplex iterations) in 350.05 seconds (351.25 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 7: 3.6487e+06 3.64842e+06 3.59094e+06 ... 3.34671e+06
+
+Time limit reached
+Best objective 3.648698000000e+06, best bound 3.699648000000e+06, gap 1.3964%

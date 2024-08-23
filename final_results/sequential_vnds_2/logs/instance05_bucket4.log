@@ -1,0 +1,52 @@
+
+Gurobi 11.0.2 (win64) logging started Mon Aug 19 16:46:19 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-19T13_57_45.433552\logs\instance05_bucket4.log"
+Set parameter TimeLimit to value 95.4846993000001
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 1367 rows, 4966 columns and 138409 nonzeros
+Model fingerprint: 0xb11fc9ec
+Variable types: 0 continuous, 4966 integer (4908 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+03]
+  Objective range  [6e+02, 9e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve time: 0.27s
+Presolved: 1367 rows, 4966 columns, 138409 nonzeros
+Variable types: 0 continuous, 4966 integer (4908 binary)
+
+Root relaxation: objective 2.969320e+05, 5454 iterations, 1.74 seconds (2.64 work units)
+Total elapsed time = 5.11s (DegenMoves)
+Total elapsed time = 10.19s (DegenMoves)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 296931.959    0  811          - 296931.959      -     -   10s
+     0     0 296890.881    0 1310          - 296890.881      -     -   27s
+     0     0 296890.881    0 1077          - 296890.881      -     -   30s
+     0     0 296348.620    0  870          - 296348.620      -     -   65s
+     0     0 296319.341    0 1055          - 296319.341      -     -   74s
+     0     0 296312.415    0 1404          - 296312.415      -     -   95s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 494
+  Clique: 262
+  MIR: 132
+  StrongCG: 4
+  Zero half: 7
+
+Explored 1 nodes (74226 simplex iterations) in 95.51 seconds (69.21 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 2.963120000000e+05, gap -

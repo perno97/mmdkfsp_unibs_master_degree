@@ -1,0 +1,70 @@
+
+Gurobi 11.0.2 (win64) logging started Sun Aug 18 12:53:28 2024
+
+Set parameter LogFile to value "D:\Documenti\Scuola\Laurea magistrale unibs\laurea-unibs-mkfsp\output\2024-08-18T10_03_15.889499\logs\instance06_bucket7.log"
+Set parameter TimeLimit to value 350
+Set parameter MIPGap to value 0
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 3022 rows, 14466 columns and 408579 nonzeros
+Model fingerprint: 0x3eb53bf5
+Variable types: 0 continuous, 14466 integer (14358 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+03]
+  Objective range  [6e+02, 8e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+05]
+Found heuristic solution: objective 575769.00000
+Presolve time: 0.81s
+Presolved: 3022 rows, 14466 columns, 408579 nonzeros
+Variable types: 0 continuous, 14466 integer (14358 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 6.528630e+05, 947 iterations, 0.21 seconds (0.21 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 652863.000    0   26 575769.000 652863.000  13.4%     -    1s
+H    0     0                    644943.00000 652863.000  1.23%     -    1s
+     0     0 652863.000    0  136 644943.000 652863.000  1.23%     -    1s
+H    0     0                    647975.00000 652863.000  0.75%     -    2s
+H    0     0                    650028.00000 652863.000  0.44%     -    3s
+     0     0 652863.000    0  136 650028.000 652863.000  0.44%     -    3s
+     0     0 652863.000    0   13 650028.000 652863.000  0.44%     -    4s
+H    0     0                    650118.00000 652863.000  0.42%     -    4s
+H    0     0                    650746.00000 652863.000  0.33%     -    4s
+     0     0 652863.000    0   75 650746.000 652863.000  0.33%     -    4s
+     0     0 652863.000    0   15 650746.000 652863.000  0.33%     -    6s
+     0     0 652863.000    0   19 650746.000 652863.000  0.33%     -    7s
+     0     0 652863.000    0   44 650746.000 652863.000  0.33%     -    9s
+     0     0 652863.000    0   31 650746.000 652863.000  0.33%     -   10s
+     0     2 652863.000    0   20 650746.000 652863.000  0.33%     -   13s
+H   27    31                    651422.00000 652863.000  0.22%   188   14s
+H   28    31                    651472.00000 652863.000  0.21%   186   14s
+    39    51 652863.000    8  135 651472.000 652863.000  0.21%   143   15s
+   318   464 652863.000   51    8 651472.000 652863.000  0.21%   157   22s
+H  378   374                    652863.00000 652863.000  0.00%   135   22s
+
+Cutting planes:
+  Gomory: 18
+  Cover: 139
+  Clique: 232
+  MIR: 84
+  StrongCG: 3
+
+Explored 482 nodes (101846 simplex iterations) in 22.46 seconds (20.87 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 9: 652863 651472 651422 ... 575769
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 6.528630000000e+05, best bound 6.528630000000e+05, gap 0.0000%
